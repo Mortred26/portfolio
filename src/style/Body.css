@@ -1,0 +1,59 @@
+.services {
+    padding: 90px 0;
+}
+
+.service-row {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1 1 0;
+    min-width: 315px;
+}
+
+.service-card-img {
+    margin-bottom: 30px;
+}
+.service-card-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px ;
+    text-transform: uppercase;
+   
+}   
+.service-card p {
+    line-height: 2;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 90px 0;
+    background-color: #F1F1F1;
+}
+
+.portfolio-title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+.project-img {
+    margin-bottom: 40px;
+}
+.project-title {
+    font-size: 18px;
+    
+}
+.project-title a {
+    color: #000;
+    text-decoration: underline;
+}
